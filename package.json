@@ -1,0 +1,30 @@
+{
+  "name": "@hitomihiumi/filewatcher",
+  "version": "0.1.0",
+  "description": "A simple module that allows you to track changes in files of certain directories and certain extensions.",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "node --trace-warnings ./test/test.js",
+    "build": "tsc",
+    "doc": "tsx docgen.ts"
+  },
+  "keywords": [
+    "file",
+    "watcher",
+    "filewatcher"
+  ],
+  "author": "hitomihiumi",
+  "license": "MIT",
+  "devDependencies": {
+    "@hitomihiumi/micro-docgen": "^0.3.0",
+    "@types/node": "^22.14.0",
+    "eslint": "^9.23.0",
+    "eslint-config-neon": "^0.2.7",
+    "tslib": "^2.8.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3"
+  }
+}

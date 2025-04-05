@@ -1,0 +1,7 @@
+/.idea
+/node_modules
+/dist
+/docs
+
+filewatcher.iml
+package-lock.json
