@@ -1,5 +1,8 @@
 # FileWatcher
 
+[![npm version](https://badge.fury.io/js/%40hitomihiumi%2Ffilewatcher.svg)](https://www.npmjs.com/package/@hitomihiumi/filewatcher)
+[![downloads](https://img.shields.io/npm/dm/%40hitomihiumi%2Ffilewatcher.svg)](https://www.npmjs.com/package/@hitomihiumi/filewatcher)
+
 ## Overview
 
 FileWatcher is a Node.js utility that monitors file system changes in specified directories. It can detect file additions, modifications, and deletions, and allows you to set custom handlers for these events.

@@ -1,8 +1,9 @@
 {
   "name": "@hitomihiumi/filewatcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple module that allows you to track changes in files of certain directories and certain extensions.",
-  "main": "eslint.config.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "node --trace-warnings ./test/test.js",
     "build": "tsc",
@@ -15,6 +16,14 @@
   ],
   "author": "hitomihiumi",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitomihiumi/filewatcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hitomihiumi/filewatcher/issues"
+  },
+  "homepage": "https://github.com/hitomihiumi/filewatcher#readme",
   "devDependencies": {
     "@hitomihiumi/micro-docgen": "^0.3.0",
     "@types/node": "^22.14.0",
